@@ -19,6 +19,6 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    ss = ""
+    # ss = ""
     tt = "a"
     print (Solution().findTheDifference(ss, tt))
