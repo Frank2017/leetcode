@@ -15,4 +15,4 @@ class Solution(object):
         pass
 
 if __name__ == '__main__':
-    print Solution().getSum(-1, 1)
+    print (Solution().getSum(-1, 1))

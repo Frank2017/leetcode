@@ -8,4 +8,4 @@ class Solution(object):
 
 if __name__ == '__main__':
     s = "hello"
-    print Solution().reverseString(s)
+    print (Solution().reverseString(s))

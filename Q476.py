@@ -16,4 +16,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().findComplement(5)
+    print (Solution().findComplement(5))

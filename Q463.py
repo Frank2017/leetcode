@@ -35,6 +35,6 @@ if __name__ == '__main__':
     grid = [[0, 1, 0, 0]]
     m = len(grid)
     n = len(grid[0])
-    print m, n
-    print Solution().islandPerimeter(grid)
+    print (m, n)
+    print (Solution().islandPerimeter(grid))
 

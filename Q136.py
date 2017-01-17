@@ -12,4 +12,4 @@ class Solution(object):
 
 if __name__ == '__main__':
     arr = [1, 2, 3, 4, 3, 4, 1]
-    print Solution().singleNumber(arr)
+    print (Solution().singleNumber(arr))

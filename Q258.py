@@ -17,4 +17,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().addDigits(7)
+    print (Solution().addDigits(7))

@@ -17,6 +17,6 @@ class Solution(object):
         return arr
 
 if __name__ == '__main__':
-    print Solution().fizzBuzz(15)
+    print (Solution().fizzBuzz(15))
 
 

@@ -8,4 +8,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().canWinNim(11)
+    print (Solution().canWinNim(11))

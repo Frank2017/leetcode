@@ -19,4 +19,4 @@ if __name__ == '__main__':
     # er = [x for x in arr if x != 0]
     # arr = er + ls
     # print arr
-    print Solution().moveZeros(arr)
+    print (Solution().moveZeros(arr))
