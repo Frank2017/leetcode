@@ -11,7 +11,6 @@ class Solution(object):
         er = [x for x in nums if x != 0]
         nums = er + ls
         return nums
-        pass
 
 
 if __name__ == '__main__':
