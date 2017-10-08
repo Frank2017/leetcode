@@ -1,15 +1,14 @@
 class Solution(object):
     def moveZeros(self, nums):
-        # for i in range(1, len(nums)):
-        #     for j in range(i, 0, -1):
-        #         if 0 == nums[j - 1]:
-        #             temp = nums[j - 1]
-        #             nums[j - 1] = nums[j]
-        #             nums[j] = temp
-        # return nums
-        ls = [x for x in nums if x == 0]
-        er = [x for x in nums if x != 0]
-        nums = er + ls
+        nonezero = -1
+        cur = 0
+        for i in range(len(nums)):
+            if nums[cur] != 0:
+                nonezero += 1
+                if nonezero != cur:
+                    nums[nonezero] = nums[cur]
+                    nums[cur] = 0
+            cur += 1
         return nums
 
 
