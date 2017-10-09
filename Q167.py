@@ -17,13 +17,14 @@ class Solution(object):
         """
         lenn = len(numbers)
         for i in list(range(0, lenn)):
-            if (target - numbers[i]) in numbers:
-                j = self.binsearch(numbers, i+1, lenn-1,target-numbers[i])
-                if i < j:
-                    return [i+1, j+1]
+            # #delet this judge, because it will resume time
+            # if (target - numbers[i]) in numbers:
+            j = self.binsearch(numbers, i+1, lenn-1,target-numbers[i])
+            if i < j:
+                return [i+1, j+1]
 
 
 if __name__ == "__main__":
-    arr = [1, 2, 3, 4,4,9,56,90]
-    target = 8
+    arr = [1,2,3,4]
+    target = 5
     print(Solution().twoSum(arr, target))
